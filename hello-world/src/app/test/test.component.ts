@@ -6,9 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./test.component.css']
 })
 export class TestComponent  {
-  title: string = 'david'
- calc(n:number):number {
-   return n*3
- }
 
+  // exercice 1 
+
+//   title: string = 'david'
+//  calc(n:number):number {
+//    return n*3
+
+//    }
+  
+   getUsername(Uname: string):number
+   {
+     return Uname.length
+   }
+ 
+  
 }
